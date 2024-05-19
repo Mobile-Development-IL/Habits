@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Habits</string>
+    <string name="remind_me">Ingatkan saya untuk belajar %s dalam…</string>
+    <string name="five_seconds">5 detik</string>
+    <string name="one_day">1 hari</string>
+    <string name="one_week">1 minggu</string>
+    <string name="one_month">1 bulan</string>
+    <string name="habits">Setiap</string>
+    <string name="time_to_doing">Waktunya belajar %s.</string>
+
+    <string name="kotlin_desc">Belajar Kotlin untuk pemula</string>
+</resources>
