@@ -14,7 +14,7 @@ class HabitReminderWorker(
 
         val habitName = inputData.getString(nameKey)
 
-        makePlantReminderNotification(
+        makeHabitReminderNotification(
             applicationContext.resources.getString(R.string.time_to_doing, habitName),
             applicationContext
         )

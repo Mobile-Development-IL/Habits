@@ -20,7 +20,7 @@ import com.infinitelearning.habits.REQUEST_CODE
 import com.infinitelearning.habits.VERBOSE_NOTIFICATION_CHANNEL_DESCRIPTION
 import com.infinitelearning.habits.VERBOSE_NOTIFICATION_CHANNEL_NAME
 
-fun makePlantReminderNotification(
+fun makeHabitReminderNotification(
     message: String,
     context: Context
 ) {

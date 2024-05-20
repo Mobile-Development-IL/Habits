@@ -81,7 +81,7 @@ fun HabitListContent(
         modifier = modifier
     ) {
         items(items = habits) {
-            PlantListItem(
+            HabitsListItem(
                 habit = it,
                 onItemSelect = { habit ->
                     selectedHabit = habit
@@ -102,7 +102,7 @@ fun HabitListContent(
 }
 
 @Composable
-fun PlantListItem(habit: Habit, onItemSelect: (Habit) -> Unit, modifier: Modifier = Modifier) {
+fun HabitsListItem(habit: Habit, onItemSelect: (Habit) -> Unit, modifier: Modifier = Modifier) {
     Card(modifier = modifier
         .clickable { onItemSelect(habit) }
     ) {
