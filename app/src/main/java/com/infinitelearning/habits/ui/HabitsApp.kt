@@ -39,13 +39,13 @@ import com.infinitelearning.habits.SEVEN_DAYS
 import com.infinitelearning.habits.THIRTY_DAYS
 import com.infinitelearning.habits.data.Reminder
 import com.infinitelearning.habits.model.Habit
-import com.infinitelearning.habits.ui.theme.WaterMeTheme
+import com.infinitelearning.habits.ui.theme.HabitsTheme
 import java.util.concurrent.TimeUnit
 
 @Composable
 fun HabitsApp(habitViewModel: HabitViewModel = viewModel(factory = HabitViewModel.Factory)) {
     val layoutDirection = LocalLayoutDirection.current
-    WaterMeTheme {
+    HabitsTheme {
         Surface(
             modifier = Modifier
                 .fillMaxSize()
